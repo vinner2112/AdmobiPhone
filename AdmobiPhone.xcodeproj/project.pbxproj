@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14C754114F27B5700D83624 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C753F14F27B5700D83624 /* libGoogleAdMobAds.a */; };
+		A14C754214F27B5700D83624 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A14C754014F27B5700D83624 /* README.txt */; };
 		F0D028F5137D0537007BBFF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D028F4137D0537007BBFF0 /* UIKit.framework */; };
 		F0D028F7137D0537007BBFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D028F6137D0537007BBFF0 /* Foundation.framework */; };
 		F0D028F9137D0537007BBFF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D028F8137D0537007BBFF0 /* CoreGraphics.framework */; };
@@ -16,23 +18,41 @@
 		F0D02908137D0537007BBFF0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D02906137D0537007BBFF0 /* MainWindow.xib */; };
 		F0D0290B137D0537007BBFF0 /* AdmobiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D0290A137D0537007BBFF0 /* AdmobiPhoneViewController.m */; };
 		F0D0290E137D0537007BBFF0 /* AdmobiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D0290C137D0537007BBFF0 /* AdmobiPhoneViewController.xib */; };
+		F0D0292C137D0869007BBFF0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D02927137D0869007BBFF0 /* AudioToolbox.framework */; };
+		F0D0292D137D0869007BBFF0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D02929137D0869007BBFF0 /* MediaPlayer.framework */; };
+		F0D0292E137D0869007BBFF0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D0292A137D0869007BBFF0 /* MessageUI.framework */; };
+		F0D0292F137D0869007BBFF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D0292B137D0869007BBFF0 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A14C753914F27B5700D83624 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		A14C753A14F27B5700D83624 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		A14C753B14F27B5700D83624 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		A14C753C14F27B5700D83624 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		A14C753D14F27B5700D83624 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		A14C753E14F27B5700D83624 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		A14C753F14F27B5700D83624 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		A14C754014F27B5700D83624 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		F0D028F0137D0537007BBFF0 /* AdmobiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmobiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D028F4137D0537007BBFF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0D028F6137D0537007BBFF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0D028F8137D0537007BBFF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0D028FC137D0537007BBFF0 /* AdmobiPhone-Info.plist */ = {isa = PBXFileReference; path = "AdmobiPhone-Info.plist"; sourceTree = "<group>"; };
+		F0D028FC137D0537007BBFF0 /* AdmobiPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdmobiPhone-Info.plist"; sourceTree = "<group>"; };
 		F0D028FE137D0537007BBFF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0D02900137D0537007BBFF0 /* AdmobiPhone-Prefix.pch */ = {isa = PBXFileReference; path = "AdmobiPhone-Prefix.pch"; sourceTree = "<group>"; };
+		F0D02900137D0537007BBFF0 /* AdmobiPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdmobiPhone-Prefix.pch"; sourceTree = "<group>"; };
 		F0D02901137D0537007BBFF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0D02903137D0537007BBFF0 /* AdmobiPhoneAppDelegate.h */ = {isa = PBXFileReference; path = AdmobiPhoneAppDelegate.h; sourceTree = "<group>"; };
+		F0D02903137D0537007BBFF0 /* AdmobiPhoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobiPhoneAppDelegate.h; sourceTree = "<group>"; };
 		F0D02904137D0537007BBFF0 /* AdmobiPhoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobiPhoneAppDelegate.m; sourceTree = "<group>"; };
 		F0D02907137D0537007BBFF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F0D02909137D0537007BBFF0 /* AdmobiPhoneViewController.h */ = {isa = PBXFileReference; path = AdmobiPhoneViewController.h; sourceTree = "<group>"; };
+		F0D02909137D0537007BBFF0 /* AdmobiPhoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdmobiPhoneViewController.h; sourceTree = "<group>"; };
 		F0D0290A137D0537007BBFF0 /* AdmobiPhoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdmobiPhoneViewController.m; sourceTree = "<group>"; };
 		F0D0290D137D0537007BBFF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AdmobiPhoneViewController.xib; sourceTree = "<group>"; };
+		F0D02927137D0869007BBFF0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0D02928137D0869007BBFF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0D02929137D0869007BBFF0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F0D0292A137D0869007BBFF0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F0D0292B137D0869007BBFF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0D02941137D1EF8007BBFF0 /* lightingeffects-splash-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lightingeffects-splash-1.png"; path = "../../Desktop/lightingeffects-splash-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,18 +60,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D0292C137D0869007BBFF0 /* AudioToolbox.framework in Frameworks */,
+				F0D028F9137D0537007BBFF0 /* CoreGraphics.framework in Frameworks */,
+				F0D0292D137D0869007BBFF0 /* MediaPlayer.framework in Frameworks */,
+				F0D0292E137D0869007BBFF0 /* MessageUI.framework in Frameworks */,
+				F0D0292F137D0869007BBFF0 /* SystemConfiguration.framework in Frameworks */,
 				F0D028F5137D0537007BBFF0 /* UIKit.framework in Frameworks */,
 				F0D028F7137D0537007BBFF0 /* Foundation.framework in Frameworks */,
-				F0D028F9137D0537007BBFF0 /* CoreGraphics.framework in Frameworks */,
+				A14C754114F27B5700D83624 /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14C753814F27B5700D83624 /* GoogleAdMobAdsSDKiOS-5.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				A14C753914F27B5700D83624 /* GADBannerView.h */,
+				A14C753A14F27B5700D83624 /* GADBannerViewDelegate.h */,
+				A14C753B14F27B5700D83624 /* GADInterstitial.h */,
+				A14C753C14F27B5700D83624 /* GADInterstitialDelegate.h */,
+				A14C753D14F27B5700D83624 /* GADRequest.h */,
+				A14C753E14F27B5700D83624 /* GADRequestError.h */,
+				A14C753F14F27B5700D83624 /* libGoogleAdMobAds.a */,
+				A14C754014F27B5700D83624 /* README.txt */,
+			);
+			name = "GoogleAdMobAdsSDKiOS-5.0.5";
+			path = "../GoogleAdMobAdsSDKiOS-5.0.5";
+			sourceTree = "<group>";
+		};
 		F0D028E5137D0536007BBFF0 = {
 			isa = PBXGroup;
 			children = (
+				A14C753814F27B5700D83624 /* GoogleAdMobAdsSDKiOS-5.0.5 */,
+				F0D02941137D1EF8007BBFF0 /* lightingeffects-splash-1.png */,
 				F0D028FA137D0537007BBFF0 /* AdmobiPhone */,
 				F0D028F3137D0537007BBFF0 /* Frameworks */,
 				F0D028F1137D0537007BBFF0 /* Products */,
@@ -69,6 +112,11 @@
 		F0D028F3137D0537007BBFF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0D02927137D0869007BBFF0 /* AudioToolbox.framework */,
+				F0D02928137D0869007BBFF0 /* CoreGraphics.framework */,
+				F0D02929137D0869007BBFF0 /* MediaPlayer.framework */,
+				F0D0292A137D0869007BBFF0 /* MessageUI.framework */,
+				F0D0292B137D0869007BBFF0 /* SystemConfiguration.framework */,
 				F0D028F4137D0537007BBFF0 /* UIKit.framework */,
 				F0D028F6137D0537007BBFF0 /* Foundation.framework */,
 				F0D028F8137D0537007BBFF0 /* CoreGraphics.framework */,
@@ -154,6 +202,7 @@
 				F0D028FF137D0537007BBFF0 /* InfoPlist.strings in Resources */,
 				F0D02908137D0537007BBFF0 /* MainWindow.xib in Resources */,
 				F0D0290E137D0537007BBFF0 /* AdmobiPhoneViewController.xib in Resources */,
+				A14C754214F27B5700D83624 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +261,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -221,13 +270,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amrita Ghosh (MWSR37PEN5)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D145E95C-06AE-4289-982D-E7154B46DFDE";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -241,6 +291,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdmobiPhone/AdmobiPhone-Prefix.pch";
 				INFOPLIST_FILE = "AdmobiPhone/AdmobiPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDKiOS-5.0.5\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +310,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdmobiPhone/AdmobiPhone-Prefix.pch";
 				INFOPLIST_FILE = "AdmobiPhone/AdmobiPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDKiOS-5.0.5\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -279,6 +341,7 @@
 				F0D02913137D0537007BBFF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
